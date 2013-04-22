@@ -1,0 +1,45 @@
+body { 
+	width: 10000px; 
+} 
+
+.panel { 
+	width: 930px; float: left; padding-left: 30px; padding-right: 1040px;
+} 
+
+.panel { 
+	margin-top: 30px; 
+} 
+
+ul#banner { 
+	position: fixed; line-height: 45px; margin: 0 30px; padding-right: 0; 
+} 
+
+ul#banner li { 
+	display: inline; 
+	padding-right: 15px;
+	padding-left: 15px;
+	height: 30px;
+	background-color: #C0C0C0;
+} 
+
+ul#banner li a {
+	text-decoration: none;
+	font-family: helvetica;
+}
+
+/*---Landing---*/
+#landing {
+	background-image:url('images/alleyway_2.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+}
+
+/*---1---*/
+#page_1 {
+	background-image:url('images/balloon.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+}
+
