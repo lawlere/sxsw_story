@@ -7,24 +7,34 @@ body {
 } 
 
 .panel { 
-	margin-top: 30px; 
+	margin-top: 0;
 } 
 
 ul#banner { 
-	position: fixed; line-height: 45px; margin: 0 30px; padding-right: 0; 
+	position: fixed; line-height: 45px; margin: 0; padding-right: 0; 
 } 
 
 ul#banner li { 
 	display: inline; 
 	padding-right: 15px;
-	padding-left: 15px;
+	padding-left: 20px;
 	height: 30px;
-	background-color: #C0C0C0;
+	background-color: white;
 } 
 
 ul#banner li a {
 	text-decoration: none;
-	font-family: helvetica;
+	font-family: 'Maiden Orange', cursive;	
+	color: #ff9900;
+	font-weight: bold;
+}
+
+footer #banner {
+	width: 100%;
+	height: 40px;
+	background-color: white;
+	margin-left: -40px;
+	margin-top: -10px;
 }
 
 /*---Landing---*/
@@ -33,6 +43,64 @@ ul#banner li a {
 	width: 930px;
 	height: 1000px;
 	background-repeat:no-repeat;
+	margin-left: -10px;
+}
+
+#landing h1 {
+	margin-top: 140px;
+	font-family: 'Maiden Orange', cursive;	
+	color: #ff9900;
+	font-size: 180px;
+	text-align:center;
+	opacity: 0.8;
+	margin-left: -60px;
+	text-transform: uppercase;
+}
+
+#landing h2 {
+	font-family: 'Maiden Orange', cursive;	
+	color: white;
+	font-size: 200%;
+	text-align:center;
+	opacity: 1;
+	margin-left: -60px;
+	margin-top: -110px;
+	letter-spacing:2px;
+	font-weight: 100;
+}
+
+#landing .side_text {
+	font-family: 'Maiden Orange', cursive;
+	font-weight: 100;
+	color: #404041;
+	position: absolute;
+	margin-left: 930px;
+	width: 350px;
+	margin-top: -720px;
+	font-size: 200%;
+	letter-spacing: 2px;
+	height: 1000px;
+	border-left: 1px solid #ff9900;
+	padding-left: 10px;
+}
+
+#landing a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 500px;
+	padding-bottom: 1000px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.2;
+}
+
+#landing a:hover {
+	opacity: 1;
 }
 
 /*---1---*/

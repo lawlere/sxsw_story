@@ -6,12 +6,15 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="sxsw.css" />
         <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Maiden+Orange' rel='stylesheet' type='text/css'>
     </head>
     <body>
     	<div id="landing" class="panel">
-    		<h1>A Twinge of Discomfort</h1>
-    		<h2>tales from SXSW 2013 told through pictures.</h2>
-    	</div>
+    		<h1>Things noticed alone</h1>
+    		<h2>Tales from SXSW 2013 told through pictures.</h2>
+            <h3 class="side_text">Nobody notices what they don’t notice. But I notice how much more I notice when alone.</h3>
+            <a id="next_page" href="#page_1">2</a>
+        </div>    
 
     	<div id="page_1" class="panel">
     		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
@@ -31,6 +34,8 @@
 
 	    <script>
 	    	$(document).ready(function() { $("#banner a").bind("click",function(event){ event.preventDefault(); var target = $(this).attr("href"); $("html, body").stop().animate({ scrollLeft: $(target).offset().left, scrollTop: $(target).offset().top }, 1200); }); });
+
+            $(document).ready(function() { $("#landing a").bind("click",function(event){ event.preventDefault(); var target = $(this).attr("href"); $("html, body").stop().animate({ scrollLeft: $(target).offset().left, scrollTop: $(target).offset().top }, 1200); }); });
 	    </script>
 	</body>
 
