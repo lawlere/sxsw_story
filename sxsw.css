@@ -1,5 +1,7 @@
 body { 
-	width: 10000px; 
+	width: 26000px; 
+	margin: 0;
+	padding: 0;
 } 
 
 .panel { 
@@ -11,13 +13,16 @@ body {
 } 
 
 ul#banner { 
-	position: fixed; line-height: 45px; margin: 0; padding-right: 0; 
+	position: fixed; 
+	line-height: 45px; 
+	margin: 0; 
+	padding-right: 0; 
+	margin-left: -30px;
 } 
 
 ul#banner li { 
 	display: inline; 
-	padding-right: 15px;
-	padding-left: 20px;
+	padding-left: 57px;
 	height: 30px;
 	background-color: white;
 } 
@@ -29,12 +34,12 @@ ul#banner li a {
 	font-weight: bold;
 }
 
-footer #banner {
+header #banner {
 	width: 100%;
 	height: 40px;
 	background-color: white;
-	margin-left: -40px;
-	margin-top: -10px;
+	/*margin-left: -40px;
+	margin-top: -10px;*/
 }
 
 /*---Landing---*/
@@ -44,6 +49,7 @@ footer #banner {
 	height: 1000px;
 	background-repeat:no-repeat;
 	margin-left: -10px;
+	padding-top: 30px;
 }
 
 #landing h1 {
@@ -92,7 +98,7 @@ footer #banner {
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-top: 500px;
-	padding-bottom: 1000px;
+	padding-bottom: 535px;
 	background-color: #A62f00;
 	position: absolute;
 	margin-top: -800px;
@@ -105,9 +111,413 @@ footer #banner {
 
 /*---1---*/
 #page_1 {
+	background-image:url('images/lights.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+	padding-top: 30px;
+}
+
+#page_1 h3 {
+	font-family: 'Maiden Orange', cursive;
+	font-weight: 100;
+	color: #404041;
+	position: absolute;
+	margin-left: 930px;
+	width: 350px;
+	margin-top: 30px;
+	font-size:200%;
+}
+
+#page_1 a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 1300px;
+	padding-bottom: 480px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.2;
+}
+#page_1 a:hover {
+	opacity: 1;
+}
+
+/*---2---*/
+
+#page_2 {
 	background-image:url('images/balloon.png');
 	width: 930px;
 	height: 1000px;
 	background-repeat:no-repeat;
+	padding-top: 30px;
 }
+
+#page_2 h3 {
+	font-family: 'Maiden Orange', cursive;
+	color: #404041;
+	margin-left: 930px;
+	width: 350px;
+	font-size:200%;
+}
+
+#page_2 a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 1100px;
+	padding-bottom: 520px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.2;
+}
+
+#page_2 a:hover {
+	opacity: 1;
+}
+
+/*---3---*/
+
+#page_3 {
+	background-image:url('images/alleyway.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+	padding-top: 30px;
+}
+
+#page_3 h3 {
+	font-family: 'Maiden Orange', cursive;
+	color: #404041;
+	margin-left: 930px;
+	width: 350px;
+	font-size:200%;
+}
+
+#page_3 a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 1100px;
+	padding-bottom: 520px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.2;
+}
+
+#page_3 a:hover {
+	opacity: 1;
+}
+
+/*---4---*/
+
+#page_4 {
+	background-image:url('images/charging.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+	padding-top: 30px;
+}
+
+#page_4 h3 {
+	font-family: 'Maiden Orange', cursive;
+	color: #404041;
+	margin-left: 930px;
+	width: 350px;
+	font-size:200%;
+}
+
+#page_4 a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 1100px;
+	padding-bottom: 520px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.2;
+}
+
+#page_4 a:hover {
+	opacity: 1;
+}
+
+/*---5---*/
+
+#page_5 {
+	background-image:url('images/girls_on_street.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+	padding-top: 30px;
+}
+
+#page_5 h3 {
+	font-family: 'Maiden Orange', cursive;
+	color: #404041;
+	margin-left: 930px;
+	width: 350px;
+	font-size:200%;
+}
+
+#page_5 a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 1100px;
+	padding-bottom: 520px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.2;
+}
+
+#page_5 a:hover {
+	opacity: 1;
+}
+
+/*---6---*/
+
+#page_6 {
+	background-image:url('images/Joe_eating.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+	padding-top: 30px;
+}
+
+#page_6 h3 {
+	font-family: 'Maiden Orange', cursive;
+	color: #404041;
+	margin-left: 930px;
+	width: 350px;
+	font-size:200%;
+}
+
+#page_6 a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 1100px;
+	padding-bottom: 520px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.2;
+}
+
+#page_6 a:hover {
+	opacity: 1;
+}
+
+/*---7---*/
+
+#page_7 {
+	background-image:url('images/crazy_hair.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+	padding-top: 30px;
+}
+
+#page_7 h3 {
+	font-family: 'Maiden Orange', cursive;
+	color: #404041;
+	margin-left: 930px;
+	width: 350px;
+	font-size:200%;
+}
+
+#page_7 a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 1100px;
+	padding-bottom: 520px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.2;
+}
+
+#page_7 a:hover {
+	opacity: 1;
+}
+
+/*---8---*/
+
+#page_8 {
+	background-image:url('images/man_grafiti.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+	padding-top: 30px;
+}
+
+#page_8 h3 {
+	font-family: 'Maiden Orange', cursive;
+	color: #404041;
+	margin-left: 930px;
+	width: 350px;
+	font-size:200%;
+}
+
+#page_8 a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 1100px;
+	padding-bottom: 520px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.2;
+}
+
+#page_8 a:hover {
+	opacity: 1;
+}
+
+/*---9---*/
+
+#page_9 {
+	background-image:url('images/poet_on_street.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+	padding-top: 30px;
+}
+
+#page_9 h3 {
+	font-family: 'Maiden Orange', cursive;
+	color: #404041;
+	margin-left: 930px;
+	width: 350px;
+	font-size:200%;
+}
+
+#page_9 a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 1100px;
+	padding-bottom: 520px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.2;
+}
+
+#page_9 a:hover {
+	opacity: 1;
+}
+
+/*---10---*/
+
+#page_10 {
+	background-image:url('images/model.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+	padding-top: 30px;
+}
+
+#page_10 h3 {
+	font-family: 'Maiden Orange', cursive;
+	color: #404041;
+	margin-left: 930px;
+	width: 350px;
+	font-size:200%;
+}
+
+#page_10 a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 1100px;
+	padding-bottom: 520px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.2;
+}
+
+#page_10 a:hover {
+	opacity: 1;
+}
+
+/*--11---*/
+
+#page_11 {
+	background-image:url('images/window.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+	padding-top: 30px;
+}
+
+#page_11 h3 {
+	font-family: 'Maiden Orange', cursive;
+	color: #404041;
+	margin-left: 930px;
+	width: 350px;
+	font-size:200%;
+}
+
+#page_11 a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 1100px;
+	padding-bottom: 520px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.2;
+}
+
+#page_11 a:hover {
+	opacity: 1;
+}
+
+
+
+
 

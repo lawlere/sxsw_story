@@ -9,44 +9,103 @@
         <link href='http://fonts.googleapis.com/css?family=Maiden+Orange' rel='stylesheet' type='text/css'>
     </head>
     <body>
+    <header>    
+        <ul id="banner">
+            <li> <a href="#landing">1</a> </li>
+            <li> <a href="#page_1">2</a> </li>
+            <li> <a href="#page_2">3</a> </li>
+            <li> <a href="#page_3">4</a> </li>
+            <li> <a href="#page_4">5</a> </li>
+            <li> <a href="#page_5">6</a> </li>
+            <li> <a href="#page_6">7</a> </li>
+            <li> <a href="#page_7">8</a> </li>
+            <li> <a href="#page_8">9</a> </li>
+            <li> <a href="#page_9">10</a> </li>
+            <li> <a href="#page_10">11</a> </li>
+            <li> <a href="#page_11">12</a> </li>
+
+        </ul> 
+    </header>    
+
     	<div id="landing" class="panel">
     		<h1>Things noticed alone</h1>
     		<h2>Tales from SXSW 2013 told through pictures.</h2>
             <h3 class="side_text">Nobody notices what they don’t notice. But I notice how much more I notice when alone.</h3>
-            <a id="next_page" href="#page_1">2</a>
+            <a class="next_page" href="#page_1">2</a>
         </div>    
 
     	<div id="page_1" class="panel">
-    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+    		<h3>It's less about who I want to be to that person I'm with. And more about the things around me.</h3>
+            <a class="next_page" href="#page_2">3</a>
 		</div>
 
     	<div id="page_2" class="panel">
-    		<p>Lorem ipsum dolor sit amet.</p>
+    		<h3>I see the energy pulse through a crowd as a woman embarrases herself on stage.</h3>
+            <a class="next_page" href="#page_3">4</a>
     	</div>
 
     	<div id="page_3" class="panel">
-    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    		<h3>The beauty in the cracked, soggy pavement.</h3>
+            <a class="next_page" href="#page_4">5</a>
     	</div>
 
     	<div id="page_4" class="panel">
-    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+    		<h3>I notice how uncomfortable people are at the thought of going without technology for a few hours.</h3>
+            <a class="next_page" href="#page_5">6</a>
     	</div>
+
+        <div id="page_5" class="panel">
+            <h3>The carefree feeling of being on a crowded street of bars becomes a part of me.</h3>
+            <a class="next_page" href="#page_6">7</a>
+        </div>
+
+        <div id="page_6" class="panel">
+            <h3>Watching someone else be alone makes me feel as if I have something in common with that other silent observer.</h3>
+            <a class="next_page" href="#page_7">8</a>
+        </div>
+
+        <div id="page_7" class="panel">
+            <h3>It's not the crazy hair of a rockstar, but instead the wonder of 'who is he?'.</h3>
+            <a class="next_page" href="#page_8">9</a>
+        </div>
+
+        <div id="page_8" class="panel">
+            <h3>Time can be spent watching the tiny strokes being etched onto a wall of Graffiti, and then the mural as a whole.</h3>
+            <a class="next_page" href="#page_9">10</a>
+        </div>
+
+        <div id="page_9" class="panel">
+            <h3>I can feel the knowing look of the poet, writing on the side of a road.</h3>
+            <a class="next_page" href="#page_10">11</a>
+        </div>
+
+        <div id="page_10" class="panel">
+            <h3>The mustard yellow of a plastic bush erupting from the hand of a beautiful woman.</h3>
+            <a class="next_page" href="#page_11">12</a>
+        </div>
+
+        <div id="page_11" class="panel">
+            <h3>The surreal feeling of living through a cloudy, dream-like existence never subsides. And I noticed it all.</h3>
+        </div>
 
 	    <script>
 	    	$(document).ready(function() { $("#banner a").bind("click",function(event){ event.preventDefault(); var target = $(this).attr("href"); $("html, body").stop().animate({ scrollLeft: $(target).offset().left, scrollTop: $(target).offset().top }, 1200); }); });
 
             $(document).ready(function() { $("#landing a").bind("click",function(event){ event.preventDefault(); var target = $(this).attr("href"); $("html, body").stop().animate({ scrollLeft: $(target).offset().left, scrollTop: $(target).offset().top }, 1200); }); });
+            $(document).ready(function() { $("#page_1 a").bind("click",function(event){ event.preventDefault(); var target = $(this).attr("href"); $("html, body").stop().animate({ scrollLeft: $(target).offset().left, scrollTop: $(target).offset().top }, 1200); }); });
+            $(document).ready(function() { $("#page_2 a").bind("click",function(event){ event.preventDefault(); var target = $(this).attr("href"); $("html, body").stop().animate({ scrollLeft: $(target).offset().left, scrollTop: $(target).offset().top }, 1200); }); });
+            $(document).ready(function() { $("#page_3 a").bind("click",function(event){ event.preventDefault(); var target = $(this).attr("href"); $("html, body").stop().animate({ scrollLeft: $(target).offset().left, scrollTop: $(target).offset().top }, 1200); }); });
+            $(document).ready(function() { $("#page_4 a").bind("click",function(event){ event.preventDefault(); var target = $(this).attr("href"); $("html, body").stop().animate({ scrollLeft: $(target).offset().left, scrollTop: $(target).offset().top }, 1200); }); });
+            $(document).ready(function() { $("#page_5 a").bind("click",function(event){ event.preventDefault(); var target = $(this).attr("href"); $("html, body").stop().animate({ scrollLeft: $(target).offset().left, scrollTop: $(target).offset().top }, 1200); }); });
+            $(document).ready(function() { $("#page_6 a").bind("click",function(event){ event.preventDefault(); var target = $(this).attr("href"); $("html, body").stop().animate({ scrollLeft: $(target).offset().left, scrollTop: $(target).offset().top }, 1200); }); });
+            $(document).ready(function() { $("#page_7 a").bind("click",function(event){ event.preventDefault(); var target = $(this).attr("href"); $("html, body").stop().animate({ scrollLeft: $(target).offset().left, scrollTop: $(target).offset().top }, 1200); }); });
+            $(document).ready(function() { $("#page_8 a").bind("click",function(event){ event.preventDefault(); var target = $(this).attr("href"); $("html, body").stop().animate({ scrollLeft: $(target).offset().left, scrollTop: $(target).offset().top }, 1200); }); });
+            $(document).ready(function() { $("#page_9 a").bind("click",function(event){ event.preventDefault(); var target = $(this).attr("href"); $("html, body").stop().animate({ scrollLeft: $(target).offset().left, scrollTop: $(target).offset().top }, 1200); }); });
+            $(document).ready(function() { $("#page_10 a").bind("click",function(event){ event.preventDefault(); var target = $(this).attr("href"); $("html, body").stop().animate({ scrollLeft: $(target).offset().left, scrollTop: $(target).offset().top }, 1200); }); });
+            $(document).ready(function() { $("#page_11 a").bind("click",function(event){ event.preventDefault(); var target = $(this).attr("href"); $("html, body").stop().animate({ scrollLeft: $(target).offset().left, scrollTop: $(target).offset().top }, 1200); }); });
+
 	    </script>
 	</body>
 
-    <footer>
-    	<ul id="banner">
-    		<li> <a href="#landing">1</a> </li>
-    		<li> <a href="#page_1">2</a> </li>
-    		<li> <a href="#page_2">3</a> </li>
-    		<li> <a href="#page_3">4</a> </li>
-    		<li> <a href="#page_4">5</a> </li>
-    	</ul> 
-    </footer>	
 
 </html>
