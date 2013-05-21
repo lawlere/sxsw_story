@@ -31,7 +31,7 @@ ul#banner li a {
 	text-decoration: none;
 	font-family: 'Maiden Orange', cursive;	
 	color: #ff9900;
-	font-weight: bold;
+	font-size: 140%;
 }
 
 header #banner {
@@ -96,13 +96,18 @@ header #banner {
 	text-decoration: none;
 	font-family: 'Maiden Orange', cursive;
 	padding-left: 50px;
-	padding-right: 50px;
-	padding-top: 500px;
+	padding-right: 40px;
+	padding-top: 430px;
 	padding-bottom: 535px;
 	background-color: #A62f00;
 	position: absolute;
 	margin-top: -800px;
 	opacity: 0.2;
+	font-size: 140%;
+}
+
+#landing a img {
+	width: 30px;
 }
 
 #landing a:hover {
@@ -127,6 +132,7 @@ header #banner {
 	width: 350px;
 	margin-top: 30px;
 	font-size:200%;
+	line-height: 50px;
 }
 
 #page_1 a {
@@ -136,13 +142,19 @@ header #banner {
 	font-family: 'Maiden Orange', cursive;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-top: 1300px;
+	padding-top: 1180px;
 	padding-bottom: 480px;
 	background-color: #A62f00;
 	position: absolute;
 	margin-top: -800px;
 	opacity: 0.2;
+	font-size: 140%;
 }
+
+#page_1 a img {
+	width: 30px;
+}
+
 #page_1 a:hover {
 	opacity: 1;
 }
@@ -163,6 +175,7 @@ header #banner {
 	margin-left: 930px;
 	width: 350px;
 	font-size:200%;
+	line-height: 50px;
 }
 
 #page_2 a {
@@ -172,12 +185,17 @@ header #banner {
 	font-family: 'Maiden Orange', cursive;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-top: 1100px;
+	padding-top: 1000px;
 	padding-bottom: 520px;
 	background-color: #A62f00;
 	position: absolute;
 	margin-top: -800px;
 	opacity: 0.2;
+	font-size: 140%;
+}
+
+#page_2 a img {
+	width: 30px;
 }
 
 #page_2 a:hover {
@@ -200,6 +218,7 @@ header #banner {
 	margin-left: 930px;
 	width: 350px;
 	font-size:200%;
+	line-height: 50px;
 }
 
 #page_3 a {
@@ -209,12 +228,17 @@ header #banner {
 	font-family: 'Maiden Orange', cursive;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-top: 1100px;
+	padding-top: 1000px;
 	padding-bottom: 520px;
 	background-color: #A62f00;
 	position: absolute;
 	margin-top: -800px;
 	opacity: 0.2;
+	font-size: 140%;
+}
+
+#page_3 a img {
+	width: 30px;
 }
 
 #page_3 a:hover {
@@ -237,6 +261,7 @@ header #banner {
 	margin-left: 930px;
 	width: 350px;
 	font-size:200%;
+	line-height: 50px;
 }
 
 #page_4 a {
@@ -246,12 +271,17 @@ header #banner {
 	font-family: 'Maiden Orange', cursive;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-top: 1100px;
+	padding-top: 1000px;
 	padding-bottom: 520px;
 	background-color: #A62f00;
 	position: absolute;
 	margin-top: -800px;
 	opacity: 0.2;
+	font-size: 140%;
+}
+
+#page_4 a img {
+	width: 30px;
 }
 
 #page_4 a:hover {
@@ -274,6 +304,7 @@ header #banner {
 	margin-left: 930px;
 	width: 350px;
 	font-size:200%;
+	line-height: 50px;
 }
 
 #page_5 a {
@@ -283,12 +314,17 @@ header #banner {
 	font-family: 'Maiden Orange', cursive;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-top: 1100px;
+	padding-top: 1000px;
 	padding-bottom: 520px;
 	background-color: #A62f00;
 	position: absolute;
 	margin-top: -800px;
 	opacity: 0.2;
+	font-size: 140%;
+}
+
+#page_5 a img {
+	width: 30px;
 }
 
 #page_5 a:hover {
@@ -311,6 +347,7 @@ header #banner {
 	margin-left: 930px;
 	width: 350px;
 	font-size:200%;
+	line-height: 50px;
 }
 
 #page_6 a {
@@ -324,8 +361,13 @@ header #banner {
 	padding-bottom: 520px;
 	background-color: #A62f00;
 	position: absolute;
-	margin-top: -800px;
+	margin-top: -960px;
 	opacity: 0.2;
+	font-size: 140%;
+}
+
+#page_6 a img {
+	width: 30px;
 }
 
 #page_6 a:hover {
@@ -348,6 +390,7 @@ header #banner {
 	margin-left: 930px;
 	width: 350px;
 	font-size:200%;
+	line-height: 50px;
 }
 
 #page_7 a {
@@ -357,12 +400,17 @@ header #banner {
 	font-family: 'Maiden Orange', cursive;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-top: 1100px;
+	padding-top: 1000px;
 	padding-bottom: 520px;
 	background-color: #A62f00;
 	position: absolute;
 	margin-top: -800px;
 	opacity: 0.2;
+	font-size: 140%;
+}
+
+#page_7 a img {
+	width: 30px;
 }
 
 #page_7 a:hover {
@@ -385,6 +433,7 @@ header #banner {
 	margin-left: 930px;
 	width: 350px;
 	font-size:200%;
+	line-height: 50px;
 }
 
 #page_8 a {
@@ -394,12 +443,17 @@ header #banner {
 	font-family: 'Maiden Orange', cursive;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-top: 1100px;
+	padding-top: 1000px;
 	padding-bottom: 520px;
 	background-color: #A62f00;
 	position: absolute;
 	margin-top: -800px;
 	opacity: 0.2;
+	font-size: 140%;
+}
+
+#page_8 a img {
+	width: 30px;
 }
 
 #page_8 a:hover {
@@ -422,6 +476,7 @@ header #banner {
 	margin-left: 930px;
 	width: 350px;
 	font-size:200%;
+	line-height: 50px;
 }
 
 #page_9 a {
@@ -431,12 +486,17 @@ header #banner {
 	font-family: 'Maiden Orange', cursive;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-top: 1100px;
+	padding-top: 1000px;
 	padding-bottom: 520px;
 	background-color: #A62f00;
 	position: absolute;
 	margin-top: -800px;
 	opacity: 0.2;
+	font-size: 140%;
+}
+
+#page_9 a img {
+	width: 30px;
 }
 
 #page_9 a:hover {
@@ -459,6 +519,7 @@ header #banner {
 	margin-left: 930px;
 	width: 350px;
 	font-size:200%;
+	line-height: 50px;
 }
 
 #page_10 a {
@@ -468,12 +529,17 @@ header #banner {
 	font-family: 'Maiden Orange', cursive;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-top: 1100px;
+	padding-top: 1000px;
 	padding-bottom: 520px;
 	background-color: #A62f00;
 	position: absolute;
 	margin-top: -800px;
 	opacity: 0.2;
+	font-size: 140%;
+}
+
+#page_10 a img {
+	width: 30px;
 }
 
 #page_10 a:hover {
@@ -496,6 +562,7 @@ header #banner {
 	margin-left: 930px;
 	width: 350px;
 	font-size:200%;
+	line-height: 50px;
 }
 
 #page_11 a {
@@ -511,6 +578,11 @@ header #banner {
 	position: absolute;
 	margin-top: -800px;
 	opacity: 0.2;
+	font-size: 140%;
+}
+
+#page_11 a img {
+	width: 30px;
 }
 
 #page_11 a:hover {
